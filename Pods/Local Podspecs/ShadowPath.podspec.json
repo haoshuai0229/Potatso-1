@@ -1,0 +1,65 @@
+{
+  "name": "ShadowPath",
+  "version": "0.1.0",
+  "summary": "Http and Socks proxy based on Privoxy and Antinat",
+  "description": "Http and Socks proxy based on Privoxy and Antinat.",
+  "homepage": "http://icodesign.me",
+  "license": "GPLv2",
+  "authors": {
+    "iCodesign": "leimagnet@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.2",
+    "osx": "10.9"
+  },
+  "source_files": "ShadowPath/ShadowPath.h",
+  "public_header_files": "ShadowPath/ShadowPath.h",
+  "libraries": "expat",
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DHAVE_CONFIG_H -DLIB_ONLY -DUDPRELAY_LOCAL -DMODULE_LOCAL"
+  },
+  "vendored_libraries": "ShadowPath/Antinat/expat-lib/lib/libexpat.a",
+  "dependencies": {
+    "ShadowSocks-libev-iOS": [
+      "~> 3.2.5"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "libmaxminddb",
+      "header_mappings_dir": "ShadowPath/libmaxminddb/include",
+      "source_files": [
+        "ShadowPath/libmaxminddb/include/*.{c,h}",
+        "ShadowPath/libmaxminddb/src/*.{c,h,m}"
+      ],
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "${PODS_ROOT}/../Library/ShadowPath/ShadowPath/libmaxminddb/include"
+      }
+    },
+    {
+      "name": "Antinat",
+      "header_mappings_dir": "ShadowPath/Antinat",
+      "source_files": "ShadowPath/Antinat/**/*.{c,h,m}",
+      "public_header_files": "ShadowPath/Antinat/server/AntinatServer.h",
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "${PODS_ROOT}/../Library/ShadowPath/ShadowPath/Antinat"
+      }
+    },
+    {
+      "name": "Privoxy",
+      "header_mappings_dir": "ShadowPath/Privoxy",
+      "source_files": "ShadowPath/Privoxy/*.{c,h,m}",
+      "public_header_files": [
+        "ShadowPath/Privoxy/jcc.h",
+        "ShadowPath/Privoxy/project.h"
+      ],
+      "xcconfig": {
+        "HEADER_SEARCH_PATHS": "${PODS_ROOT}/../Library/ShadowPath/ShadowPath/Privoxy"
+      }
+    }
+  ]
+}

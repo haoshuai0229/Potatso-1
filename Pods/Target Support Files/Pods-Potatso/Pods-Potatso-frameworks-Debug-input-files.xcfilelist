@@ -1,0 +1,27 @@
+${PODS_ROOT}/Target Support Files/Pods-Potatso/Pods-Potatso-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework
+${BUILT_PRODUCTS_DIR}/LibYAML/LibYAML.framework
+${BUILT_PRODUCTS_DIR}/MMWormhole/MMWormhole.framework
+${BUILT_PRODUCTS_DIR}/YAML-Framework/YAML_Framework.framework
+${BUILT_PRODUCTS_DIR}/AsyncSwift/Async.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/ICSMainFramework/ICSMainFramework.framework
+${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework
+${BUILT_PRODUCTS_DIR}/LogglyLogger-CocoaLumberjack/LogglyLogger_CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/PSOperations/PSOperations.framework
+${BUILT_PRODUCTS_DIR}/ShadowPath/ShadowPath.framework
+${BUILT_PRODUCTS_DIR}/ShadowSocks-libev-iOS/ShadowSocks_libev_iOS.framework
+${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework
+${BUILT_PRODUCTS_DIR}/SwiftColor/SwiftColor.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Appirater/Appirater.framework
+${BUILT_PRODUCTS_DIR}/CallbackURLKit/CallbackURLKit.framework
+${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework
+${BUILT_PRODUCTS_DIR}/ICDMaterialActivityIndicatorView/ICDMaterialActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/ISO8601DateFormatter/ISO8601DateFormatter.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/PullToRefresher/PullToRefresh.framework
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework

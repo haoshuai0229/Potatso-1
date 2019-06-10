@@ -1,0 +1,13 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/ShadowPath
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ShadowSocks-libev-iOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/../Library/ShadowPath/ShadowPath/Antinat ${PODS_ROOT}/../Library/ShadowPath/ShadowPath/Privoxy ${PODS_ROOT}/../Library/ShadowPath/ShadowPath/libmaxminddb/include
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../Library/ShadowPath/ShadowPath/Antinat/expat-lib/lib"
+OTHER_CFLAGS = $(inherited) -DHAVE_CONFIG_H -DLIB_ONLY -DUDPRELAY_LOCAL -DMODULE_LOCAL
+OTHER_LDFLAGS = $(inherited) -l"expat"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../Library/ShadowPath
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

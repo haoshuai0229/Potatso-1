@@ -1,0 +1,6 @@
+[submodule "Library/ShadowPath/ShadowPath/libmaxminddb"]
+	path = Library/ShadowPath/ShadowPath/libmaxminddb
+	url = git@github.com:haxpor/libmaxminddb.git
+[submodule "Library/YAML"]
+	path = Library/YAML
+	url = https://github.com/mirek/YAML.framework.git
