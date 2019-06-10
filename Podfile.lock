@@ -140,6 +140,7 @@ EXTERNAL SOURCES:
     :tag: 3.2.5.6.pre
   YAML-Framework:
     :path: "./Library/YAML/"
+    :spec: "./Library/YAML/YAML-Framework.spec"
 
 CHECKOUT OPTIONS:
   ICDMaterialActivityIndicatorView:
@@ -177,6 +178,6 @@ SPEC CHECKSUMS:
   SwiftColor: d5345671e3a284a3aa4024cb719bdca092d5eebf
   YAML-Framework: 4143807db7155936f3b00facd6e5c22bd338cd50
 
-PODFILE CHECKSUM: 314b678edabde17a768309360c308707c96c85b4
+PODFILE CHECKSUM: d765da7286d24a370626c3f686fd89b88f70b066
 
 COCOAPODS: 1.7.0.rc.1

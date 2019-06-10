@@ -20,7 +20,7 @@ end
 def library
   pod 'KissXML', '~> 5.2.3'
   pod 'MMWormhole', '~> 2.0.0'
-  pod 'YAML-Framework', :path=> "./Library/YAML/"
+  pod 'YAML-Framework', :spec => "./Library/YAML/YAML-Framework.spec" , :path=> "./Library/YAML/"
   model
 end
 
