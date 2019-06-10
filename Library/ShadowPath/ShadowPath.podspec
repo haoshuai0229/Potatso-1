@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     minddb.source_files =  "ShadowPath/libmaxminddb/include/*.{c,h}",
     "ShadowPath/libmaxminddb/src/*.{c,h,m}"
     minddb.xcconfig = {  
-      'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/../Library/ShadowPath/ShadowPath/libmaxminddb/include',
+      'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/../Library/ShadowPath/ShadowPath/libmaxminddb/include ${PODS_ROOT}/ShadowSocks-libev-iOS/ShadowSocks-libev-iOS/shadowsocks-libev',
     }
   end
 
